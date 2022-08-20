@@ -1,0 +1,96 @@
+# Blender MTL File: 'None'
+# Material Count: 8
+
+newmtl eyebrow012.002
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures\\eyebrow012.png
+map_d textures\\eyebrow012.png
+
+newmtl eyelashes01.002
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures\\eyelashes01.png
+map_d textures\\eyelashes01.png
+
+newmtl high-poly.002
+Ns 10.000005
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures\\grey_eye.png
+map_d textures\\grey_eye.png
+
+newmtl male_elegantsuit01.002
+Ns 0.999999
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures\\male_elegantsuit01_diffuse.png
+map_d textures\\male_elegantsuit01_diffuse.png
+
+newmtl male_muscle_13290.002
+Ns 4.999997
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures\\old_lightskinned_female_diffuse.png
+
+newmtl shoes01.002
+Ns 3.999998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Bump textures\\shoes01_normal.png
+map_Kd textures\\shoes01_diffuse.png
+
+newmtl teeth_shape05.002
+Ns 8.000002
+Ka 1.000000 1.000000 1.000000
+Kd 0.640000 0.640000 0.640000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures\\teeth.png
+map_d textures\\teeth.png
+
+newmtl tongue01.002
+Ns 1.960998
+Ka 1.000000 1.000000 1.000000
+Kd 1.000000 1.000000 1.000000
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd textures\\tongue01_diffuse.png

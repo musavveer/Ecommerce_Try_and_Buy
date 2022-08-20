@@ -1,0 +1,172 @@
+{% extends 'base.html' %}
+
+{% block title %}
+IFootwears
+{% endblock title %}
+
+
+
+{% block body %}
+<div class="container-fluid px-0">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://source.unsplash.com/1200x400/?shoes" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1200x400/?heels" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="https://source.unsplash.com/1200x400/?footwear" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+</div>
+
+<div class="album py-5 bg-light">
+  <div class="container">
+
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+              <div class="card shadow-sm">
+                  <a href='product1'>
+                      <title>Placeholder</title>
+                      <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style=" display: block;" src="static/productimages/shoe1.png" data-holder-rendered="true">
+                  </a>
+                  <div class="card-body">
+                      <p class="card-text">Product 1</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-info">ADD</button>
+                              <button type="button" class="btn btn-success">TRY</button>
+                          </div>
+                          <h3 class="text-muted">1500 <i class="fa fa-inr"></i>
+
+                          </h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+
+              <div class="card shadow-sm">
+                  <a href='product2'>
+                      <title>Placeholder</title>
+                      <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style=" display: block;" src="static/productimages/shoe2.png" data-holder-rendered="true">
+
+                  </a>
+                  <div class="card-body">
+                      <p class="card-text">Product 2</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-info">ADD</button>
+                              <button type="button" class="btn btn-success">TRY</button>
+                          </div>
+                          <h3 class="text-muted">1300 <i class="fa fa-inr"></i>
+
+                          </h3>
+                      </div>
+                  </div>
+              </div>
+
+          </div>
+          <div class="col">
+              <div class="card shadow-sm">
+                  <a href='product3'>
+                      <title>Placeholder</title>
+                      <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style=" display: block;" src="static/productimages/shoe3.png" data-holder-rendered="true">
+                  </a>
+                  <div class="card-body">
+                      <p class="card-text">Product 3</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-info">ADD</button>
+                              <button type="button" class="btn btn-success">TRY</button>
+                          </div>
+                          <h3 class="text-muted">1000 <i class="fa fa-inr"></i>
+
+                          </h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+          <div class="col">
+              <div class="card shadow-sm">
+                  <a href='product4'>
+                      <title>Placeholder</title>
+                      <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style=" display: block;" src="static/productimages/shoe4.png" data-holder-rendered="true">
+                  </a>
+                  <div class="card-body">
+                      <p class="card-text">Product 4</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-info">ADD</button>
+                              <button type="button" class="btn btn-success">TRY</button>
+                          </div>
+                          <h3 class="text-muted">1400 <i class="fa fa-inr"></i>
+
+                          </h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card shadow-sm">
+                  <a href='product5'>
+                      <title>Placeholder</title>
+                      <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style=" display: block;" src="static/productimages/shoe5.png" data-holder-rendered="true">
+                  </a>
+                  <div class="card-body">
+                      <p class="card-text">Product 5</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-info">ADD</button>
+                              <button type="button" class="btn btn-success">TRY</button>
+                          </div>
+                          <h3 class="text-muted">1500 <i class="fa fa-inr"></i>
+
+                          </h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="col">
+              <div class="card shadow-sm">
+                  <a href='product6'>
+                      <title>Placeholder</title>
+                      <img class="card-img-top" data-src="holder.js/100px225?theme=thumb&amp;bg=55595c&amp;fg=eceeef&amp;text=Thumbnail" alt="Thumbnail [100%x225]" style="height: 230px; display: block;" src="static/productimages/shoe6.png" data-holder-rendered="true">
+                  </a>
+                  <div class="card-body">
+                      <p class="card-text">Product 6</p>
+                      <div class="d-flex justify-content-between align-items-center">
+                          <div class="btn-group">
+                              <button type="button" class="btn btn-info">ADD</button>
+                              <button type="button" class="btn btn-success">TRY</button>
+                          </div>
+                          <h3 class="text-muted">1600 <i class="fa fa-inr"></i>
+
+                          </h3>
+                      </div>
+                  </div>
+              </div>
+          </div>
+
+      </div>
+  </div>
+</div>
+
+{% endblock body %}
